@@ -1,0 +1,49 @@
+/* CSS */
+
+/* ------------ CSS Tags ------------*/
+p{
+    color: #FF7F50;
+    font-size: 40px;
+    font-family: arial, 'Times New Roman';
+}
+
+body{
+    background-color: black;
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+header{
+    background-color: green;
+    height: 100px;
+}
+
+footer{
+    background-color: blue;
+    height: 80px;
+    clear: both; /*No caso de divs que sobrepoem a div que esta abaixo dela, isso impede e joga essa div na continuidade da pagina */
+}
+
+/* ------------- CSS IDS -------------*/
+#div_esquerda{
+    background-color: red;
+    min-height: 200px;
+    width: 60%;
+    float: left; /*Faz flutuar na esquerda*/
+}
+
+#div_direita{
+    background-color: yellow;
+    min-height: 200px;
+    width: 40%;
+    float: right; /*Faz flutuar na direita*/
+}
+
+/* ------ CSS Class --------*/
+.container{
+    width: 960px;
+    margin: auto;
+}
